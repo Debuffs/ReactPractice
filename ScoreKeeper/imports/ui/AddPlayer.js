@@ -1,5 +1,6 @@
 import React from 'react';
 import {Players} from './../api/players';
+import PropTypes from 'prop-types';
 
 // If you want to use the this.prop.whateverproperty variable,
 // you have to preserve binding in the onSubmit function <form onSubmit={this.handleSubmit.bind(this)}>
